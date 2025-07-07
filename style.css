@@ -1,0 +1,113 @@
+*{
+    color: #111827;
+}
+
+body{
+ background-color: #F9FAFB;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ padding: 0;
+ margin: 0;
+ color: #111827;
+}
+
+.container{
+height: 100vh;
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.main{
+   height: 450px;
+   width: 500px;
+   background-color: #FFFFFF ;
+   border-radius: 15px;
+   box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+   border: 1px solid #E5E7EB;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+}
+
+.navbar{
+      background-color: #3B82F6;
+      width: 420px;
+      border-radius: 9px;
+      text-align: center;
+
+}
+.navbar h1{
+
+    color: #FFFFFF;
+}
+
+.navbar p {
+    color: #DBEAFE;
+}
+
+.input{
+    display: flex;
+    border: 1px solid #E5E7EB;
+    border-radius: 6px;
+    border-radius: 7px;
+    font-size: 16px;
+   
+}
+
+.input input{
+    padding: 13px;
+    border: 1px solid #E5E7EB;
+}
+
+.input input::placeholder{
+    color: #9CA3AF;
+    
+}
+
+#add-task-btn{
+    background-color: #10B981;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#add-task-btn:hover{
+background-color: #059669;
+}
+
+.empty{
+   text-align: center;
+   color: #9CA3AF;
+   font-size: 14px;
+   margin-bottom: 20px;
+   
+}
+
+.empty i {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.empty p {
+    text-align: center;
+}
+.clear-btn{
+    background-color: #EF4444;
+    color: #FFF;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.clear-btn:hover{
+    background-color: #DC2626;
+}
